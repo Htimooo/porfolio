@@ -13,7 +13,11 @@ function Home(props) {
         <h2> Hi, welcome to my portfolio</h2>
         <div className='prompt'>
         <p>Software developer with passion for lerning and creating</p>  
-          <LinkedInIcon/> <EmailOutlinedIcon/> <GitHubIcon/>
+        <a href='https://www.linkedin.com/in/hugo-andres-timote-496ba219a/' target="_blank" rel="noopener noreferrer">
+          <LinkedInIcon style={{cursor:'pointer'}} />  </a> 
+          <a href='https://github.com/Htimooo' target="_blank" rel="noopener noreferrer">
+          <GitHubIcon style={{cursor:'pointer'}} />
+          </a>
         </div>
       </div>
       <div className='skills'> <h1>Skills</h1>

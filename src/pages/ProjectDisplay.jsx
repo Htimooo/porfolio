@@ -19,10 +19,12 @@ function ProjectDisplay(props) {
       </p>
       <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', width: '10rem' }}>
   <a href={project.link} target="_blank" rel="noopener noreferrer">
-    <OpenInBrowserIcon />
+     
+    <OpenInBrowserIcon style={{cursor:'pointer'}}/>
   </a>
   <a href={project.github} target="_blank" rel="noopener noreferrer">
-    <GitHubIcon />
+    
+    <GitHubIcon style={{cursor:'pointer'}}/>
   </a>
 </div> </div> 
   );
