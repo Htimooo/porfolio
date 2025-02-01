@@ -31,7 +31,7 @@ export const projectList = [
         name: 'Portfolio',
         image: portfolioImage,
        skills: 'React JS, Node JS',
-       link: '',
+       link: '#',
        github: 'https://github.com/Htimooo/porfolio'
     },{
         name: 'CRUD MERN',
