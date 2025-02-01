@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.86712941.css",
+    "main.js": "/static/js/main.82147125.js",
+    "static/media/mern.jpg": "/static/media/mern.539d00aa0565b3e2a1c3.jpg",
+    "static/media/ecodental.jpg": "/static/media/ecodental.9a519207305ba6547725.jpg",
+    "static/media/portfolio.jpg": "/static/media/portfolio.1e87861c758b0fbf541f.jpg",
+    "static/media/sintegrales.jpg": "/static/media/sintegrales.2d8696d6a17521d2499d.jpg",
+    "static/media/dentalUpPortfolio.jpg": "/static/media/dentalUpPortfolio.1d2b258d8b999e360132.jpg",
+    "index.html": "/index.html",
+    "main.86712941.css.map": "/static/css/main.86712941.css.map",
+    "main.82147125.js.map": "/static/js/main.82147125.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.86712941.css",
+    "static/js/main.82147125.js"
+  ]
+}
