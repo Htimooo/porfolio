@@ -1,6 +1,6 @@
 .project {
     width: 100%;
-    height: calc(100vh - 100px);
+    height: calc(100vh - 138px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,8 +13,9 @@
     font-size: 35px;
   }
   .project img {
-    width: 700px;
+    width: 600px;
     border-radius: 10px;
+    margin: 0 auto
   }
   
   .project p {
@@ -26,4 +27,31 @@
     font-size: 60px;
     color: #3e497a;
   }
+
   
+  @media only screen and (max-width: 600px) {
+    .project p  {
+      font-size: 18px;
+      margin: 12px 0
+    }
+    .project img {
+      width: 96%;
+      border-radius: 10px;
+    }
+    .project h1 {
+      margin-top: 25px;
+      color: #3e497a;
+      font-size: 35px;
+    }
+    .project {
+      height: calc(100vh - 181px);
+      justify-content: space-between;
+      margin-top: 0;
+      width: 96%;
+      margin: 0 auto;
+     
+    }
+    .project svg {
+      font-size: 40px;
+    }
+  }

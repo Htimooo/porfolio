@@ -1,12 +1,15 @@
 .projects {
     width: 100%;
-    height: auto;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: #fff;
+    padding-bottom: 60px;
+    
   }
-  .projects .projectTitle {
+  .projects .h1 {
     text-align: center;
     color: #3e497a;
     font-size: 60px;
@@ -14,20 +17,23 @@
   }
   
   .projectList {
-    width: 70vw;
+    width: 90%;
     height: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     place-items: center;
+    margin: 0 auto;
+    
   }
   
   /* MENU ITEM STYLING */
   
   .projectItem {
+    position:relative;
     border-radius: 15px;
-    width: 300px;
-    height: 300px;
-    margin: 40px;
+    width: 400px;
+    height: 200px;    
+    margin: 15px;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
     text-align: center;
   }
@@ -38,8 +44,7 @@
   }
   
   .projectItem .bgImage {
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+    border-radius: 15px;    
     width: 100%;
     height: 200px;
     background-position: center;
@@ -47,28 +52,29 @@
     background-size: cover;
   }
   
-  .projectItem h1 {
-    font-size: 25px;
-  }
+
   
-  @media only screen and (max-width: 1300px) {
-    .projectList {
+  @media only screen and (max-width: 1200px) {
+   .projectList {
       grid-template-columns: 1fr 1fr;
+      width: 96%;
+    }
+     .projectItem {
+      width: 350px;
     }
   }
   
-  @media only screen and (max-width: 800px) {
+  @media only screen and (max-width: 600px) {
     .projectList {
       grid-template-columns: 1fr;
-    }
-  }
-  
-  @media only screen and (max-width: 800px) {
-    .projectList {
       width: 100%;
     }
     .projectItem {
-      width: 300px;
-      height: 300px;
+      width: 96%;
+    }
+    .projects {
+      height: auto;
+      padding-bottom: 36px;
     }
   }
+  

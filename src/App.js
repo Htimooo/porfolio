@@ -15,12 +15,14 @@ function App() {
       <Router>
       <ScrollToTop /> 
         <Navbar/>
+        <main>
         <Routes>
           <Route path= '/' element={<Home/>}/>
-          <Route path= '/projects' element={<Projects/>}/>
           <Route path= '/project/:id' element={<ProjectDisplay/>}/>
           <Route path= '/experience' element={<Experience/>}/>
+          <Route path= '/#proyectos' element={<Home/>}/>
         </Routes>
+        </main>
           <Footer/>
       </Router>
       

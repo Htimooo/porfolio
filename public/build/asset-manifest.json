@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.363e8d20.css",
+    "main.js": "/static/js/main.9e3c21a3.js",
+    "static/media/mern.jpg": "/static/media/mern.539d00aa0565b3e2a1c3.jpg",
+    "static/media/ecodental.jpg": "/static/media/ecodental.1c46eb01aa80c9aa9ceb.jpg",
+    "static/media/conecta.jpg": "/static/media/conecta.7dc58714a36f83be26b1.jpg",
+    "static/media/portfolio.jpg": "/static/media/portfolio.1e87861c758b0fbf541f.jpg",
+    "static/media/dentalUpPortfolio.jpg": "/static/media/dentalUpPortfolio.47135720f12c08e75e14.jpg",
+    "index.html": "/index.html",
+    "main.363e8d20.css.map": "/static/css/main.363e8d20.css.map",
+    "main.9e3c21a3.js.map": "/static/js/main.9e3c21a3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.363e8d20.css",
+    "static/js/main.9e3c21a3.js"
+  ]
+}

@@ -5,6 +5,7 @@ import OpenInBrowserIcon from '@mui/icons-material/OpenInBrowser';
 import '../styles/ProjectDisplay.css';
 import PropTypes from "prop-types";
 import { projectList } from "../helpers/ProjectList";
+import { isMobile } from "react-device-detect";
 
 function ProjectDisplay(props) {
   const { id } = useParams();
@@ -17,7 +18,7 @@ function ProjectDisplay(props) {
         <b>Skills:</b>
         {project.skills}
       </p>
-      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', width: '10rem' }}>
+      <div style={{ display: 'flex', alignItems: 'center', justifyContent:   'space-between', width: isMobile ? '6rem' : '10rem' }}>
   <a href={project.link} target="_blank" rel="noopener noreferrer">
      
     <OpenInBrowserIcon style={{cursor:'pointer'}}/>
